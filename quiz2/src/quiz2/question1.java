@@ -16,7 +16,8 @@ public class question1 {
 		datainput.close();
 		 
 		
-	
+		
+		
 		double totaltuition=initialtuition;
 		for (int i=1;i<=3;i++){
 			totaltuition=totaltuition+initialtuition*(Math.pow(1+rate,i));
